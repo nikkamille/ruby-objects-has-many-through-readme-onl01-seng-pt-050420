@@ -22,7 +22,7 @@ class Waiter
   end
   
   def best_tipper
-    meals.select
+    meals.
   end
   
 end
