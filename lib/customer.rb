@@ -25,6 +25,4 @@ class Customer
     meals.map { |meal| meal.waiter }
   end
   
-  
-  
 end
