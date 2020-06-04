@@ -18,7 +18,7 @@ class Customer
   end
   
   def meals
-    Meals.all.collect
+    Meals.all.collect { |meal| meal.customer }
   end
   
   
