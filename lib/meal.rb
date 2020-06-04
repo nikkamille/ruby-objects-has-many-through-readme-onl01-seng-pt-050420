@@ -1,6 +1,5 @@
 class Meal
   
-  attr_accessor :name, 
 
 
 
