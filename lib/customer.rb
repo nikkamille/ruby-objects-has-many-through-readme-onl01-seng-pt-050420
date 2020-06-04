@@ -22,7 +22,7 @@ class Customer
   end
   
   def waiters
-    meals.map { |waiter| meal.waiter }
+    meals.map { |meal| meal.waiter }
   end
   
   
