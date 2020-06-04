@@ -18,7 +18,7 @@ class Customer
   end
   
   def meals
-    Meal.all.collect { |meal| meal.customer }
+    Meal.all.collect { |meal| meal.customer == self }
   end
   
   
